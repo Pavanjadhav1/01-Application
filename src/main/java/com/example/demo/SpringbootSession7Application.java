@@ -10,7 +10,9 @@ public class SpringbootSession7Application {
 
 	public static void main(String[] args) {
 	
-		
+		int j=10;
+            int k=20;
+
 		ApplicationContext ap=SpringApplication.run(SpringbootSession7Application.class, args);
 	
 	Product p=ap.getBean("pob",Product.class);
